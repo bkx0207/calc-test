@@ -10,5 +10,7 @@ func main()  {
 	fmt.Println("Add(10,20):",res)
 	res=calc.Sub(30,20)
 	fmt.Println("Sub(30,20)",res)
+	res=calc.Multi(10,20)
+	fmt.Println("multi(10,20)",res)
 
 }
